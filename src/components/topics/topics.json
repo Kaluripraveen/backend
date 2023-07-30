@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_topics_topics",
+  "info": {
+    "displayName": "Topics"
+  },
+  "options": {},
+  "attributes": {
+    "Topic": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "topics.content"
+    }
+  }
+}

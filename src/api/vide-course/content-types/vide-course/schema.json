@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vide_courses",
+  "info": {
+    "singularName": "vide-course",
+    "pluralName": "vide-courses",
+    "displayName": "VideCourse",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "viderUrl": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "VideoTopic": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.videotopic"
+    }
+  }
+}

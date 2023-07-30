@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_videotopics",
+  "info": {
+    "displayName": "Videotopic",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "videoUrl": {
+      "type": "string"
+    }
+  }
+}
